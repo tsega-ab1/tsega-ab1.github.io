@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tse — Graphic Design, UI/UX &amp; Frontend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="scrollBar"></div>
+
+    <header>
+      <nav class="nav">
+        <a href="#top" class="logo"><span class="dot"></span>TSE</a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#work" data-nav>Work</a></li>
+          <li><a href="07-design-portfolio/index.html">Designs</a></li>
+          <li><a href="#process" data-nav>Process</a></li>
+          <li><a href="#about" data-nav>About</a></li>
+          <li><a href="#contact" data-nav>Contact</a></li>
+        </ul>
+        <a href="#contact" class="nav-cta">Start a project</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          &#9776;
+        </button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- ============ HERO ============ -->
+      <section class="hero">
+        <div class="hero-shapes" aria-hidden="true">
+          <div class="hero-shape hs-circle" data-speed="0.12">
+            <div class="spin"></div>
+          </div>
+          <div class="hero-shape hs-tri" data-speed="0.22">
+            <div class="spin">
+              <svg viewBox="0 0 70 70" width="70" height="70">
+                <polygon
+                  points="35,4 66,64 4,64"
+                  fill="none"
+                  stroke="#262B3A"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="hero-shape hs-ast" data-speed="0.3">
+            <div class="spin">
+              <svg
+                viewBox="0 0 24 24"
+                width="40"
+                height="40"
+                fill="none"
+                stroke="#262B3A"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="wrap">
+          <span class="badge"
+            ><span class="pulse"></span>Open for freelance work — Addis Ababa
+            &amp; remote</span
+          >
+          <h1>
+            <span class="word" style="--i: 0">Design</span>
+            <span class="word" style="--i: 1">that</span>
+            <span class="word" style="--i: 2">gets</span><br />
+            <span class="word" style="--i: 3">noticed.</span>
+            <span class="word" style="--i: 4">Products</span><br />
+            <span class="word" style="--i: 5">that</span>
+            <span class="word" style="--i: 6">get</span>
+            <span class="word word-accent" style="--i: 7">used.</span>
+          </h1>
+          <p class="hero-sub">
+            I'm Tse — a graphic designer, UI/UX designer and frontend developer.
+            I take products from a blank page to something people actually enjoy
+            using, and I build the front end myself.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-solid" data-magnetic>See the work</a>
+            <a href="#contact" class="btn btn-ghost" data-magnetic
+              >Start a project</a
+            >
+          </div>
+          <div class="hero-meta">
+            <div>
+              <span class="num" data-count="10" data-suffix="+">0+</span
+              ><span class="lbl">Products designed &amp; built</span>
+            </div>
+            <div>
+              <span class="num" data-count="4" data-suffix="">0</span
+              ><span class="lbl">Disciplines, one person</span>
+            </div>
+            <div>
+              <span class="num" data-count="100" data-suffix="%">0%</span
+              ><span class="lbl">Design-to-code handoff</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ MARQUEE ============ -->
+      <div class="marquee-strip">
+        <div class="marquee-track" id="marquee">
+          <span>
+            UI/UX DESIGN
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"
+              />
+            </svg>
+            FRONTEND DEVELOPMENT
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"
+              />
+            </svg>
+            GRAPHIC DESIGN
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"
+              />
+            </svg>
+            BRAND IDENTITY
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"
+              />
+            </svg>
+            DESIGN SYSTEMS
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"
+              />
+            </svg>
+            REACT &amp; FIGMA
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"
+              />
+            </svg>
+          </span>
+          <span aria-hidden="true">
+            UI/UX DESIGN
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"
+              />
+            </svg>
+            FRONTEND DEVELOPMENT
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"
+              />
+            </svg>
+            GRAPHIC DESIGN
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"
+              />
+            </svg>
+            BRAND IDENTITY
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"
+              />
+            </svg>
+            DESIGN SYSTEMS
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"
+              />
+            </svg>
+            REACT &amp; FIGMA
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <!-- ============ WORK ============ -->
+      <section id="work">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <h2>Selected work</h2>
+            <p>
+            </p>
+          </div>
+          <div class="work-grid" id="workGrid">
+            <!-- cards are injected by JS from projects.json, sized on a fibonacci rhythm -->
+          </div>
+        </div>
+      </section>
+
+      <div class="divider" aria-hidden="true">
+        <span class="divider-shape"></span>
+      </div>
+
+      <!-- ============ PROCESS ============ -->
+      <section class="process" id="process">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <h2>How a project runs</h2>
+            <p>
+             
+            </p>
+          </div>
+          <div class="process-list">
+            <div class="process-item reveal">
+              <span class="idx">01</span>
+              <h3>Discover</h3>
+              <p>
+                Understand the goal, the users, and what "done well" looks like
+                before opening any design tool.
+              </p>
+              <span class="duration">1–2 days</span>
+            </div>
+            <div class="process-item reveal">
+              <span class="idx">02</span>
+              <h3>Design</h3>
+              <p>
+                Wireframes, visual direction, and a working prototype you can
+                click through and react to.
+              </p>
+              <span class="duration">1–2 weeks</span>
+            </div>
+            <div class="process-item reveal">
+              <span class="idx">03</span>
+              <h3>Build</h3>
+              <p>
+                The approved design gets built as real, responsive frontend code
+                — not just a handoff file.
+              </p>
+              <span class="duration">1–3 weeks</span>
+            </div>
+            <div class="process-item reveal">
+              <span class="idx">04</span>
+              <h3>Launch</h3>
+              <p>
+                QA across devices, final polish, and a handover so the product
+                is truly yours to run.
+              </p>
+              <span class="duration">2–4 days</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider on-paper" aria-hidden="true">
+        <span class="divider-shape"></span>
+      </div>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="about" id="about">
+        <div class="wrap">
+          <div class="about-portrait reveal">
+            <img src="assets/images/tsegaye.jpg" alt="Tsegaye Abate" />
+            <span class="mono">TA</span>
+            <div class="corner"></div>
+          </div>
+          <div class="reveal">
+            <h2>One person, four disciplines, no handoff gaps.</h2>
+            <p>
+              I'm Tse, based in Addis Ababa, Ethiopia. I work across graphic
+              design, UI/UX and frontend development — which means the person
+              who designs your product is the same person who builds it. Nothing
+              gets lost in translation between a mockup and the real thing.
+            </p>
+            <p>
+              Outside client work, I build my own products end to end, from
+              concept through interface to shipped code.
+            </p>
+            <div class="about-facts">
+              <div>
+                <span class="k">Based in</span
+                ><span class="v">Addis Ababa, Ethiopia</span>
+              </div>
+              <div>
+                <span class="k">Focus</span
+                ><span class="v">UI/UX &amp; Frontend</span>
+              </div>
+              <div>
+                <span class="k">Availability</span
+                ><span class="v">Open for projects</span>
+              </div>
+              <div>
+                <span class="k">Tools</span
+                ><span class="v">Figma, React, CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section class="cta-block" id="contact">
+        <div class="wrap">
+          <span class="cta-badge reveal"
+            >Currently booking — next opening December 2026</span
+          >
+          <h2 class="reveal">Got a project? Let's make it look this good.</h2>
+          <div class="cta-row reveal">
+            <a
+              href="mailto:tsegayeabate22@gmail.com?subject=New%20project%20inquiry"
+              class="cta-email"
+              >Tsegayeabate22@gmail.com</a
+            >
+            <a
+              href="mailto:tsegayeabate22@gmail.com?subject=New%20project%20inquiry"
+              class="btn btn-solid"
+              data-magnetic
+              >Email me</a
+            >
+          </div>
+          <div class="cta-foot reveal">
+            <span>Usually replies within 24 hours</span>
+            <a href="https://www.linkedin.com/in/tsegaye-abate-b60402288" class="cta-alt">or message me on LinkedIn ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <span>&copy; 2026 Tsegaye Abate. All rights reserved.</span>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/tsegaye-abate-b60402288" target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/tsega-ab1" target="_blank">GitHub</a>
+          <a href="https://www.instagram.com/tsega_ab1" target="_blank"
+            >Instagram</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <button id="toTop" aria-label="Back to top">&#8593;</button>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
