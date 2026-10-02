@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Tsega</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Space+Grotesk:wght@400;500&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <span class="site-logo">TSEGA</span>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <div class="site-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html" class="is-active">Contact</a>
+    </div>
+    <div class="nav-extra">
+      <a href="design/index.html">Design work</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Get in touch</p>
+    <h1>Contact</h1>
+    <p class="lede">Have a project in mind, or just want to say hi? The details below, or the form — whichever's easier.</p>
+  </div>
+</header>
+
+<section class="block">
+  <div class="wrap contact-grid">
+    <div>
+      <dl class="contact-list">
+        <li><dt>Location</dt><dd>Addis Ababa, Ethiopia</dd></li>
+        <li><dt>Email</dt><dd>your.email@example.com</dd></li>
+        <li><dt>GitHub</dt><dd><a href="https://github.com/tsega-ab1" target="_blank" rel="noopener">github.com/tsega-ab1</a></dd></li>
+        <li><dt>LinkedIn</dt><dd>add your profile link</dd></li>
+      </dl>
+      <p class="placeholder-note">Email and LinkedIn are placeholders — swap in your real ones before this goes live. GitHub and location are already correct.</p>
+    </div>
+
+    <form class="contact-form" onsubmit="return false;">
+      <div>
+        <label for="cName">Name</label>
+        <input id="cName" type="text" name="name" required>
+      </div>
+      <div>
+        <label for="cEmail">Email</label>
+        <input id="cEmail" type="email" name="email" required>
+      </div>
+      <div>
+        <label for="cMessage">Message</label>
+        <textarea id="cMessage" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit">Send message</button>
+      <p class="form-note">This form doesn't send anywhere yet — it needs a backend or a service like Formspree wired up to <code>action=</code> before it actually delivers messages.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span class="tagline">Building things, one project at a time.</span>
+  </div>
+</footer>
+
+<script src="js/nav.js"></script>
+</body>
+</html>

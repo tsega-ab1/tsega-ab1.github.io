@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — Tsega</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Space+Grotesk:wght@400;500&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <span class="site-logo">TSEGA</span>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <div class="site-links">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="is-active">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-extra">
+      <a href="design/index.html">Design work</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Who I am</p>
+    <h1>About</h1>
+  </div>
+</header>
+
+<section class="block">
+  <div class="wrap about-grid">
+    <div class="about-photo" id="aboutPhoto"></div>
+    <div>
+      <h2 style="font-family:var(--font-display);font-weight:800;font-size:1.8rem;margin:0 0 0.6rem;">Hello, I'm Tsega.</h2>
+      <p class="role" style="font-family:var(--font-label);color:var(--text-on-light-soft);margin-bottom:1rem;">Web Developer · Graphic Designer</p>
+
+      <p>I'm based in Addis Ababa, where I split my time between freelance web development and graphic design — building static and multi-page sites for clients, and working on pitch decks for the EAII AI Startup Incubation Program alongside my own creative projects.</p>
+
+      <p>My work ranges from client-facing deliverables (booking sites, admin dashboards) to personal builds that are really just an excuse to learn something — a terminal music visualizer in Python, a data dashboard for a public-health idea, programmatic slide generation with Node. I like projects with a visual payoff and a clear, buildable scope.</p>
+
+      <p class="placeholder-note">Add a line here about what you're focused on next — internships, specific technologies, or the kind of work you want more of. (Left as a placeholder rather than guessed.)</p>
+
+      <h3 style="font-family:var(--font-display);margin-top:2rem;">Skills</h3>
+      <div class="skill-row">
+        <span class="skill-chip">HTML</span>
+        <span class="skill-chip">CSS</span>
+        <span class="skill-chip">JavaScript</span>
+        <span class="skill-chip">Node.js</span>
+        <span class="skill-chip">Python</span>
+        <span class="skill-chip">Bash</span>
+        <span class="skill-chip">pptxgenjs</span>
+        <span class="skill-chip">Graphic Design</span>
+        <span class="skill-chip">React (learning)</span>
+      </div>
+
+      <h3 style="font-family:var(--font-display);margin-top:2rem;">Education</h3>
+      <div class="edu-item">
+        <div class="edu-year">Add year(s)</div>
+        <h3>Add your school / program</h3>
+        <p>Left blank intentionally — drop in your actual program, institution, and focus area here.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="next-section">
+  <div class="wrap">
+    <p class="eyebrow">Next</p>
+    <a class="big-link" href="projects.html">Projects →</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span class="tagline">Building things, one project at a time.</span>
+  </div>
+</footer>
+
+<script src="js/util.js"></script>
+<script>
+  document.getElementById("aboutPhoto").appendChild(
+    window.DevPortfolioUtil.imageWithFallback("assets/images/me.jpg", "Tsega")
+  );
+</script>
+<script src="js/nav.js"></script>
+</body>
+</html>

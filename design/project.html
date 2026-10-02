@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project — Design Portfolio — Tsega</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Space+Grotesk:wght@400;500&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <span class="site-logo">TSEGA</span>
+    <div class="site-links">
+      <a href="../index.html">Home</a>
+      <a href="index.html" class="is-active">Design Portfolio</a>
+    </div>
+    <span class="site-role" id="metaTag"></span>
+  </div>
+</nav>
+
+<header class="project-hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow" id="pEyebrow"></p>
+      <h1 id="pTitle"></h1>
+      <p class="desc" id="pDesc"></p>
+      <dl class="project-meta">
+        <dt>Client</dt><dd id="pClient"></dd>
+        <dt>Category</dt><dd id="pCategory"></dd>
+        <dt>Year</dt><dd id="pYear"></dd>
+      </dl>
+    </div>
+    <div class="project-hero-media" id="pHeroMedia"></div>
+  </div>
+</header>
+
+<section class="project-section" id="conceptSection">
+  <div class="wrap concept-grid">
+    <div>
+      <p class="eyebrow" id="cEyebrow"></p>
+      <h2 id="cHeadline"></h2>
+      <p id="cDesc"></p>
+      <div class="trait-row" id="cTraits"></div>
+    </div>
+    <div>
+      <p class="eyebrow">Color palette</p>
+      <div class="swatch-row" id="pPalette"></div>
+    </div>
+    <div>
+      <p class="eyebrow">Typography</p>
+      <div class="type-row" id="pType"></div>
+    </div>
+  </div>
+</section>
+
+<section class="project-section" id="mockupsSection">
+  <div class="wrap">
+    <p class="eyebrow">More mockups</p>
+    <div class="grid-3" id="pMockups" style="margin-top:1.2rem;"></div>
+  </div>
+</section>
+
+<section class="project-section" id="detailsSection">
+  <div class="wrap">
+    <p class="eyebrow">Details</p>
+    <div class="grid-3" id="pDetails" style="margin-top:1.2rem;"></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span class="tagline" id="pFooterTitle"></span>
+    <a class="back-link" href="index.html">← Back to Design Portfolio</a>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/util.js"></script>
+<script src="js/project.js"></script>
+</body>
+</html>

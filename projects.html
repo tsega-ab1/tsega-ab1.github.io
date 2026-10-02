@@ -3,8 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tsega — Developer Portfolio</title>
-<meta name="description" content="Web developer portfolio — freelance sites, data-driven dashboards, and small creative/technical builds.">
+<title>Projects — Tsega</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Space+Grotesk:wght@400;500&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
@@ -17,9 +16,9 @@
     <span class="site-logo">TSEGA</span>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
     <div class="site-links">
-      <a href="index.html" class="is-active">Home</a>
+      <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
+      <a href="projects.html" class="is-active">Projects</a>
       <a href="resume.html">Resume</a>
       <a href="contact.html">Contact</a>
     </div>
@@ -29,27 +28,27 @@
   </div>
 </nav>
 
-<header class="hero">
+<header class="page-head">
   <div class="wrap">
-    <p class="eyebrow kicker">Web Developer Portfolio</p>
-    <h1><span class="accent">Tsega</span></h1>
-    <p class="role">Web Developer — Builder &amp; Maker</p>
-    <p class="lede">I build static and multi-page websites, small data-driven dashboards, and scripted tools — mostly HTML, CSS and JavaScript, with Node.js and Python where a project calls for it.</p>
-    <a class="cta-link" href="about.html">View More →</a>
-
-    <dl class="info-grid">
-      <div><dt>Location</dt><dd>Addis Ababa, Ethiopia</dd></div>
-      <div><dt>Email</dt><dd>your.email@example.com</dd></div>
-      <div><dt>GitHub</dt><dd><a href="https://github.com/tsega-ab1" target="_blank" rel="noopener">github.com/tsega-ab1</a></dd></div>
-      <div><dt>LinkedIn</dt><dd>add your profile link</dd></div>
-    </dl>
+    <p class="eyebrow">Selected work</p>
+    <h1>Projects</h1>
+    <p class="lede">A selection of projects spanning freelance client work, data-driven dashboards, and smaller personal builds.</p>
   </div>
 </header>
+
+<section class="block" id="projectsList"></section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="section-head"><h2>Coming soon</h2></div>
+    <div class="coming-soon-grid" id="comingSoon"></div>
+  </div>
+</section>
 
 <section class="next-section">
   <div class="wrap">
     <p class="eyebrow">Next</p>
-    <a class="big-link" href="about.html">About →</a>
+    <a class="big-link" href="resume.html">Resume →</a>
   </div>
 </section>
 
@@ -59,6 +58,9 @@
   </div>
 </footer>
 
+<script src="js/data.js"></script>
+<script src="js/util.js"></script>
+<script src="js/projects.js"></script>
 <script src="js/nav.js"></script>
 </body>
 </html>
